@@ -20,16 +20,17 @@ menuToggle.addEventListener("click", () => {
 // EmailJS Initialize
 emailjs.init("YOUR_PUBLIC_KEY");
 
+
 const contactForm = document.getElementById("contact-form");
 
 contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        this
-    )
+   emailjs.sendForm(
+    "service_437m21h",
+    "template_xxxxxxx",
+    this
+)
     .then(() => {
         alert("Message Sent Successfully!");
         contactForm.reset();
