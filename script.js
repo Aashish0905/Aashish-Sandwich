@@ -1,5 +1,12 @@
 //  <!-- NAVBAR SECTION START -->
 
+// const menuToggle = document.getElementById("menuToggle");
+// const navLinks = document.getElementById("navLinks");
+
+// menuToggle.addEventListener("click", () => {
+//     navLinks.classList.toggle("active");
+// });
+
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
